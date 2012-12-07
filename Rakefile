@@ -1,16 +1,3 @@
-# -*- ruby -*-
-
-require 'hoe'
-
-Hoe.plugin :seattlerb
-
-Hoe.spec 'SyslogLogger' do
-  developer 'Eric Hodel', 'drbrain@segment7.net'
-
-  self.rubyforge_name = 'seattlerb'
-end
-
-# vim: syntax=Ruby
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
